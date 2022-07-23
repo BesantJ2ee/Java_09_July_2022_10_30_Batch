@@ -55,7 +55,9 @@ public class Indiranagar {
 	    
 	    StringBuffer s3 = new StringBuffer("Toyota");
 	    s3.length();
-	    
+	  //  s3.reverse();
+	    s3.replace(0, 2, "a");
+	    System.out.println(s3);
 	    
 	    
 	    jvjvgjv gsdgs=new jvjvgjv();
