@@ -1,5 +1,7 @@
 package java_July_Batch_10_30;
 
+import java.util.StringTokenizer;
+
 public class Indiranagar {
 
 	public static void main(String[] args) {
@@ -26,7 +28,14 @@ public class Indiranagar {
 		
 		System.out.println(str4.length());
 		
-		System.out.println(str4.startsWith("f"));
+		
+		String str5 ="Besant";
+		
+		System.out.println("<<<<<<sTARTSWITH METHOD>>>>>>");
+		
+		System.out.println(str5.startsWith("B"));
+		
+		System.out.println("<<<<<<sTARTSWITH METHOD ENDING>>>>>>");
 		
 		System.out.println(str4.startsWith("e"));
 		
@@ -36,16 +45,7 @@ public class Indiranagar {
 		System.out.println(str2.trim());
 
 		
-	    String avsc="a,b,c,d,e";
-	    
-
-    	String[] a =avsc.split(",");
-	    
-	    for(int i=0;i<a.length;i++)
-	    {
-	    		    	
-	    	System.out.println(a[i]);	
-	    }
+	   
 	    
 	    
 	    StringBuffer s = new StringBuffer("Toyota");
@@ -86,8 +86,65 @@ public class Indiranagar {
 		
 		   
 		   String dc = "Taj Mahal Located in Agra";
-		   dc.replaceAll("Agra", "UP");
-		   System.out.println(dc);
+		  // dc.replaceAll("Agra", "Bangalore")
+		   System.out.println(dc.replaceAll("Agra", "Bangalore"));
+		   
+		   
+		   String str7 ="     Besant IN JAVA";
+		   System.out.println(str7.trim());
+		   System.out.println(str7.charAt(2));
+		   
+		   str7 = str7.replaceAll("\\s", "");
+		   System.out.println(str7);
+		 //The StringTokenizer class is deprecated now. It is recommended to use the split() method
+		   StringTokenizer st = new StringTokenizer("my name is khan"," ");  
+		     while (st.hasMoreTokens()) {  
+		         System.out.println(st.nextToken());  
+		     } 
+		     
+		     StringTokenizer st1 = new StringTokenizer("my-name-is-khan","-");  
+		     while (st1.hasMoreTokens()) {  
+		         System.out.println(st1.nextToken());  
+		     }  
+		     
+		     
+		     String avsc="a,b,c,d,e";
+			    
+
+		    	String[] a =avsc.split(",");
+			    
+			    for(int i=0;i<a.length;i++)
+			    {
+			    		    	
+			    	System.out.println(a[i]);	
+			    }
+			    
+			String rahul="Rahul Dravid";
+			
+			char abcd;
+			
+			char abce;
+			
+			for(int i=rahul.length()-1;i>=0;i--) {
+				
+				
+				abcd =rahul.charAt(i);
+				System.out.print(abcd);
+				
+			}
+			System.out.println(" ");
+               for(int i=0;i<rahul.length();i++) {
+				
+				
+            	   abce =rahul.charAt(i);
+				System.out.print(abce);
+				
+			}
+			    
+               String rahule="Rahulee Dravid";   
+			    
+               
+			   
 	}
 
 }

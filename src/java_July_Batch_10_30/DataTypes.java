@@ -44,6 +44,16 @@ public class DataTypes {
 		int x = 10;
 	   x += 5;
 
+	   
+	   
+	   int i = 3;
+	   int kc = i++; // kc = 3, i = 4
+	   int b = ++kc;
+	   System.out.println(kc);
+	   System.out.println(b);
+	   
+	   //Cannot use over a constant value
+	   //int x = ++10;
 		
 	}
 
