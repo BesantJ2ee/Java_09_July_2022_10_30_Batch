@@ -67,8 +67,27 @@ public class Indiranagar {
 	    
 	    vnsvksj.sum();
 	    
+	    String abc = "Rahul";
+		String k=abc.concat(" Dravid");
+		
+		System.out.println(abc);
+		System.out.println(k);
 		
 		
+		char chart[]= {'b','e','v','r','l','e','y'};
+		String bn= new String(chart);
+		System.out.println(bn.toUpperCase());
+		
+		//Immutability
+		   String sd="Jodha";  
+		   sd.concat(" Akbar");
+		   System.out.println(sd);
+	    
+		
+		   
+		   String dc = "Taj Mahal Located in Agra";
+		   dc.replaceAll("Agra", "UP");
+		   System.out.println(dc);
 	}
 
 }
