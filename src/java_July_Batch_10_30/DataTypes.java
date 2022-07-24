@@ -33,13 +33,18 @@ public class DataTypes {
 		char letterA = 'A';
 		//char uses 2 byte in java, It is because java uses Unicode system not ASCII code system. The \u0000 is the lowest range of Unicode system
 		
-		char letterB='\u0000';
+		System.out.println("<<<<<<<<>>>>>>>>>>>>>");
+		
+		
+		char letterB='\u03C1';
 		
 		char letterc='\uFFFF';
 		
 		
 		System.out.println(letterB);
 		System.out.println(letterc);
+		
+		System.out.println("<<<<<<<<>>>>>>>>>>>>>");
 		
 		int x = 10;
 	   x += 5;
@@ -48,8 +53,10 @@ public class DataTypes {
 	   
 	   int i = 3;
 	   int kc = i++; // kc = 3, i = 4
-	   int b = ++kc;
+	  
 	   System.out.println(kc);
+	   
+	   int b = ++kc;
 	   System.out.println(b);
 	   
 	   //Cannot use over a constant value

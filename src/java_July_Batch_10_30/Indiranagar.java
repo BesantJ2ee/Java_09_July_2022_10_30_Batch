@@ -119,19 +119,10 @@ public class Indiranagar {
 			    	System.out.println(a[i]);	
 			    }
 			    
-			String rahul="Rahul Dravid";
 			
-			char abcd;
-			
-			char abce;
-			
-			for(int i=rahul.length()-1;i>=0;i--) {
+			    String rahul="Rahul Dravid";
+			    char abce;	
 				
-				
-				abcd =rahul.charAt(i);
-				System.out.print(abcd);
-				
-			}
 			System.out.println(" ");
                for(int i=0;i<rahul.length();i++) {
 				
@@ -142,7 +133,22 @@ public class Indiranagar {
 			}
 			    
                String rahule="Rahulee Dravid";   
-			    
+               
+               
+               String rahulddd="Rahul Dravid";
+   			
+   			     
+               char abcd;	
+   			
+   			
+   			for(int i=rahul.length()-1;i>=0;i--) {
+   				
+   				
+   				abcd =rahul.charAt(i);
+   				System.out.print(abcd);
+   				
+   			}     
+
                
 			   
 	}
